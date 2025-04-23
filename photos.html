@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos | Bijay Thada Magar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Bijay Thada Magar</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="photos.html" class="active">Photos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Photo Gallery</h1>
+                <p>Moments captured from performances, studio sessions, and behind the scenes</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="performances">
+                        <img src="/v2/photos/IMG_2424.JPG" alt="Live performance">
+                    </div>
+                    <div class="gallery-item" data-category="studio">
+                        <img src="https://placeholder.svg?height=400&width=600" alt="Recording session">
+                    </div>
+                    <div class="gallery-item" data-category="performances">
+                        <img src="https://placeholder.svg?height=400&width=600" alt="Concert hall performance">
+                    </div>
+                    <div class="gallery-item" data-category="travel">
+                        <img src="https://placeholder.svg?height=400&width=600" alt="International tour">
+                    </div>
+                    <div class="gallery-item" data-category="studio">
+                        <img src="https://placeholder.svg?height=400&width=600" alt="Music video shoot">
+                    </div>
+                    <div class="gallery-item" data-category="performances">
+                        <img src="https://placeholder.svg?height=400&width=600" alt="Acoustic set">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Bijay Thada Magar</h2>
+                    <p>Singer & Musician</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="photos.html">Photos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>Email: bijaymagar511@gmail.com</p>
+                    <p>Location: Dhumbarahi, Kathmandu</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-spotify"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Bijay Thada Magar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
